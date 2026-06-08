@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "fbf24fa363ec856f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c85feab2ee85a7b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7365e4c031aa363",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f76303df791b2833",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4b62e8c8b32174b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4395ed663d543a8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d8cedda29169bcc4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ef4e27479155d52f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "959b7b43baf24745",
+    "type": "split",
+    "children": [
+      {
+        "id": "159d1c99fd6cbada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d994eeef58a1bec2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6c4863f33b1fcbdf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "716bb133412ea64f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "34d903c4efa43320",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9c343fcc866b0230",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "f4cece5158911b86",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "3de4f72bc15d742d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false
+    }
+  },
+  "active": "f4cece5158911b86",
+  "lastOpenFiles": [
+    "2026-06-09.md",
+    "Untitled.base",
+    "_meta/README — How to use this vault.md",
+    "00-Dashboard/✅ This Week.md",
+    "00-Dashboard/🏠 Home.md",
+    "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
+    "_templates/week.md",
+    "_templates/resource.md",
+    "_templates/project.md",
+    "_templates/permanent.md",
+    "_templates/paper.md",
+    "_templates/literature-note.md",
+    "_templates/daily.md",
+    "_templates/concept.md",
+    "00-Dashboard/📊 Progress Dashboard.md",
+    "00-Dashboard/📄 Papers Tracker.md",
+    "02-Phases-and-Weeks/Phase 1 — Foundations.md",
+    "01-Roadmap/Part 2 — The Knowledge Dependency Graph.md",
+    "01-Roadmap/Part 1 — The 2026 Landscape.md",
+    "00-Dashboard/📚 Reading Queue.md"
+  ]
+}

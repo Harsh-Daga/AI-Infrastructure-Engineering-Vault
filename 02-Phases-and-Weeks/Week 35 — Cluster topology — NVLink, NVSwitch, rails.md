@@ -1,0 +1,46 @@
+---
+type: "week"
+week: 35
+phase: "Phase 5 — Networking, Distributed Systems for AI, Distributed Training"
+status: "not-started"
+start: 
+end: 
+objective: "Cluster topology: NVLink, NVSwitch, rails, and topology-aware placement."
+concepts: ["[[Cluster Topology]]", "[[NVLink and NVSwitch]]"]
+project: ["[[Level 8 — Frontier-scale architecture simulation]]"]
+deliverable: 
+tags: ["week", "phase/5"]
+---
+
+# Week 35 — Cluster topology — NVLink, NVSwitch, rails
+
+**Phase:** [[Phase 5 — Networking, Distributed Systems for AI, Distributed Training]]  
+**Objective:** Cluster topology: NVLink, NVSwitch, rails, and topology-aware placement.  
+**Concepts:** [[Cluster Topology]], [[NVLink and NVSwitch]]
+**Project:** [[Level 8 — Frontier-scale architecture simulation]]
+
+## Learn (20m)
+NVIDIA DGX/NVL72 topology docs; a "GPU cluster network design" talk.
+
+## Read (15m)
+An engineering post on topology-aware job placement.
+
+## Build (20m)
+Diagram a 256-GPU cluster (nodes, NVSwitch domains, leaf/spine fabric); annotate where each collective travels.
+
+## Reflect (5m)
+> How would you place an 8-way tensor-parallel + 4-way pipeline job on this topology to minimize cross-rail traffic?
+
+## Resources
+- [[NVIDIA Technical Blog]]
+- [[NVIDIA Developer + GTC Recordings]]
+- [[Hugging Face Ultra-Scale Playbook]]
+
+## Tasks
+- [ ] Study/open [[NVIDIA Technical Blog]]
+- [ ] Study/open [[NVIDIA Developer + GTC Recordings]]
+- [ ] Study/open [[Hugging Face Ultra-Scale Playbook]]
+- [ ] **Build:** Diagram a 256-GPU cluster (nodes, NVSwitch domains, leaf/spine fabric); annotate where each collective travels.
+- [ ] **Reflect:** answer the week's question in the learning log
+
+## Notes
