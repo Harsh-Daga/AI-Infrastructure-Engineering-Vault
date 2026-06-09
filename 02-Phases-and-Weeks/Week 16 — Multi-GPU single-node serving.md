@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 vLLM/TensorRT-LLM tensor-parallel docs; an intro to NCCL collectives (preview of Phase 5).
 
+1. Read vLLM/TRT-LLM tensor-parallel docs.
+2. Skim an intro to NCCL collectives (a preview of Phase 5).
+3. Write why intra-node NVLink bandwidth gates tensor-parallel serving.
+
 ## Read (15m)
 A writeup on TP vs PP for inference.
+
+1. Read a "TP vs PP for inference" writeup.
+2. Note when pipeline parallelism beats tensor parallelism.
+3. Write the comms pattern each one uses.
 
 ## Build (20m)
 If you have multi-GPU access (or rent a 2×/4× node hourly), serve a model with `tensor-parallel-size > 1`; measure scaling efficiency.

@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 Platform-engineering principles applied to AI; KAITO / AI Runway / BentoML / Anyscale platform overviews.
 
+1. Read platform-engineering principles applied to AI (paved roads, golden paths).
+2. Skim KAITO/BentoML/Anyscale platform overviews.
+3. Write what your golden-path defaults must cover.
+
 ## Read (15m)
 An internal-AI-platform engineering writeup (e.g. how a company built self-serve model serving).
+
+1. Read an internal-AI-platform engineering writeup.
+2. Note what they let users NOT think about.
+3. Write their guardrails (quotas/budgets).
 
 ## Build (20m)
 Wrap your stack into a one-command/one-CRD "deploy a model" golden path with sane defaults and a dashboard.

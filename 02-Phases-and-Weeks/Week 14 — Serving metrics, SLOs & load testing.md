@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 Read about LLM-specific SLOs (TTFT and inter-token latency as separate SLOs).
 
+1. Read about LLM-specific SLOs: TTFT and inter-token latency as separate SLOs.
+2. Learn the metric definitions: TTFT, ITL/TBT, goodput, p50/p95/p99.
+3. Write why average latency is the wrong headline metric.
+
 ## Read (15m)
 A production "how we set LLM SLOs" engineering post.
+
+1. Read a production "how we set LLM SLOs" post.
+2. Note which percentile they alert on and why.
+3. Write their TTFT and ITL targets as a reference point.
 
 ## Build (20m)
 Add Prometheus + Grafana to your vLLM deployment; build a dashboard with TTFT, ITL, throughput, queue depth, KV utilization.

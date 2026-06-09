@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 PyTorch distributed checkpoint docs; an elastic-training overview (TorchElastic).
 
+1. Read PyTorch distributed checkpoint docs.
+2. Read a TorchElastic elastic-training overview.
+3. Write the sync vs async/sharded checkpointing tradeoff.
+
 ## Read (15m)
 A frontier-lab writeup on training reliability at scale (stragglers, silent data corruption, fast restart).
+
+1. Read a frontier-lab training-reliability writeup.
+2. Note their checkpoint interval and restart strategy.
+3. Write the cost of a node death at their scale.
 
 ## Build (20m)
 Add checkpoint/restart to your training job; kill it mid-run and resume; measure restart time.

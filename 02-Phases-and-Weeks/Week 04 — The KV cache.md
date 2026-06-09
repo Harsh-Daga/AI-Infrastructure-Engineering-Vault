@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 vLLM PagedAttention paper talk / blog; any solid "KV cache explained" engineering post.
 
+1. Watch/read a PagedAttention talk or blog; focus on why KV memory dominates inference.
+2. Read a "KV cache explained" engineering post for the growth formula.
+3. Write the KV-size formula: 2·layers·kv_heads·head_dim·tokens·dtype_bytes.
+
 ## Read (15m)
 vLLM blog: "Efficient Memory Management for LLM Serving with PagedAttention."
+
+1. Read the vLLM PagedAttention blog end-to-end.
+2. Note the analogy to OS virtual memory (pages, blocks, fragmentation).
+3. Write why paging beats contiguous KV allocation.
 
 ## Build (20m)
 With vLLM or llama.cpp, vary batch size and context; observe KV memory and throughput. Find the OOM cliff.

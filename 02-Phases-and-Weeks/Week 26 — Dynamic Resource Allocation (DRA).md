@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 Kubernetes DRA docs; NVIDIA DRA driver docs; the AWS "DRA for GPUs on EKS" guide.
 
+1. Read Kubernetes DRA docs + the NVIDIA DRA driver docs.
+2. Skim the AWS "DRA for GPUs on EKS" guide.
+3. Write the new objects: DeviceClass, ResourceClaim, ResourceSlice.
+
 ## Read (15m)
 A 2026 DRA + KAI + Grove setup walkthrough.
+
+1. Read a 2026 DRA + KAI + Grove walkthrough.
+2. Note how DRA changes multi-tenancy.
+3. Write the version requirement (DRA GA in K8s 1.34).
 
 ## Build (20m)
 Deploy the NVIDIA DRA driver (Helm) on your cluster; request a GPU via a `ResourceClaimTemplate`; inspect the `ResourceSlice`.

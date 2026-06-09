@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 Hugging Face "Ultra-Scale Playbook" (the single best free resource on this); the Megatron-LM parallelism docs.
 
+1. Read the Ultra-Scale Playbook parallelism sections.
+2. Skim the Megatron-LM parallelism docs.
+3. Write the tradeoff each axis makes (data/tensor/pipeline/context/expert).
+
 ## Read (15m)
 The Megatron-LM and ZeRO papers (architecture + results sections).
+
+1. Read the Megatron-LM and ZeRO papers (architecture + results).
+2. Note what ZeRO shards at each stage.
+3. Write the memory-vs-comms tradeoff of stage 3.
 
 ## Build (20m)
 Run a small multi-GPU training job with FSDP2 (or DeepSpeed ZeRO); shard a model that wouldn't fit on one GPU.

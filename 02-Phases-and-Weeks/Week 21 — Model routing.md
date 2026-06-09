@@ -25,8 +25,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 RouteLLM / routing-research overviews; gateway routing docs.
 
+1. Read RouteLLM / routing-research overviews.
+2. Learn complexity-based routing and cascades.
+3. Write a cheap difficulty signal you could compute per request.
+
 ## Read (15m)
 A "how we route between models to cut cost" engineering post.
+
+1. Read a "how we route to cut cost" engineering post.
+2. Note their routing signal and the cost saved.
+3. Write how they avoided quality regressions.
 
 ## Build (20m)
 Implement a 2-tier router: small/cheap model first, escalate hard prompts to a big model; measure cost and quality.

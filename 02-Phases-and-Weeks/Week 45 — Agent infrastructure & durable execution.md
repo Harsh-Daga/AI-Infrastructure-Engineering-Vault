@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 Temporal/Restate docs; an "agents need durable execution" talk.
 
+1. Read Temporal/Restate docs.
+2. Watch an "agents need durable execution" talk.
+3. Write why agents are an orchestration problem more than a model problem.
+
 ## Read (15m)
 A production agent-infra engineering post.
+
+1. Read a production agent-infra engineering post.
+2. Note their idempotency strategy.
+3. Write what they make an activity vs workflow code.
 
 ## Build (20m)
 Build a durable multi-step agent (e.g. with Temporal) that survives a worker crash mid-task and resumes.

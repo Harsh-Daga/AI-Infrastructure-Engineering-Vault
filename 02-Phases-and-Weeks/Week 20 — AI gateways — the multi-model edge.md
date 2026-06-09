@@ -25,8 +25,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 LiteLLM docs; Portkey/Kong AI Gateway/Envoy AI Gateway overviews.
 
+1. Read LiteLLM docs; skim Portkey/Kong/Envoy AI Gateway overviews.
+2. Learn virtual keys, budgets, failover, and guardrails.
+3. Write what belongs at the gateway vs inside each service.
+
 ## Read (15m)
 A 2026 AI-gateway comparison (LiteLLM vs Portkey vs Kong) and the security notes (e.g. supply-chain incidents).
+
+1. Read a 2026 AI-gateway comparison including the security notes.
+2. Note a real supply-chain incident it mentions.
+3. Write the gateway's single-point-of-failure risk.
 
 ## Build (20m)
 Deploy LiteLLM in front of your vLLM endpoint + one hosted API; add a virtual key with a budget cap and a failover route.

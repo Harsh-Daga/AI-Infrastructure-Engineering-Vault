@@ -24,8 +24,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 An eval-infra talk (e.g. Braintrust/OpenAI evals/Phoenix evals).
 
+1. Watch an eval-infra talk (Braintrust / OpenAI evals / Phoenix).
+2. Learn offline eval sets, LLM-as-judge, and regression gating.
+3. Write the rubric you'll score against.
+
 ## Read (15m)
 "Your eval is your moat" style engineering posts.
+
+1. Read a "your eval is your moat" post.
+2. Note the judge biases they warn about.
+3. Write how they keep the eval set from being gamed.
 
 ## Build (20m)
 Build a small eval harness that scores your RAG/router against a fixed set on every change (CI for quality).

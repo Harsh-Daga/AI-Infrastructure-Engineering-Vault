@@ -25,8 +25,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 Dynamo multi-node disaggregation docs; SGLang/vLLM multi-node serving.
 
+1. Read Dynamo multi-node disaggregation docs.
+2. Skim SGLang/vLLM multi-node serving.
+3. Write what crosses the fabric (KV) and its cost.
+
 ## Read (15m)
 A "serving a frontier-size model" architecture writeup.
+
+1. Read a "serving a frontier-size model" architecture writeup.
+2. Note what bottlenecks first as nodes scale.
+3. Write their global-routing approach.
 
 ## Build (20m)
 Stand up a 2-node disaggregated inference cluster (rent hourly); route a request across nodes; measure KV-transfer overhead.

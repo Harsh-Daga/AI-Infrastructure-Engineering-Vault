@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 Hugging Face quantization docs/blogs; a GPTQ/AWQ explainer.
 
+1. Read the HF quantization docs; learn the FP16/BF16/FP8/INT8/INT4 ladder.
+2. Read a GPTQ/AWQ explainer for how weight quantization preserves quality.
+3. Write what each precision costs in bytes per parameter.
+
 ## Read (15m)
 An engineering writeup on FP8 inference results (e.g. serving-engine benchmark posts).
+
+1. Read an FP8 inference benchmark writeup.
+2. Note the reported throughput gain and any quality delta.
+3. Write the one workload type where the writeup saw quality loss.
 
 ## Build (20m)
 Serve the same model in FP16 vs FP8/INT4; compare VRAM, throughput, and output quality on a fixed prompt set.

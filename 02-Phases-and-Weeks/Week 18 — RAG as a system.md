@@ -25,8 +25,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 A "RAG is not just top-k" engineering talk; reranker basics.
 
+1. Watch a "RAG is not just top-k" talk.
+2. Learn the pipeline stages: chunk, embed, retrieve, rerank, assemble.
+3. Write how a reranker improves a raw top-k retrieval.
+
 ## Read (15m)
 An honest "why our RAG was bad and how we fixed it" postmortem.
+
+1. Read an honest RAG postmortem.
+2. Note which stage they found was actually broken.
+3. Write their fix and how they measured it.
 
 ## Build (20m)
 Build a minimal RAG pipeline (ingest → embed → retrieve → rerank → serve) over your own docs.

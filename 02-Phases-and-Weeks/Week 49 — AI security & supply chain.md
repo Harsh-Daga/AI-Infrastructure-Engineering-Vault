@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 OWASP LLM Top 10; a 2026 AI-supply-chain incident writeup.
 
+1. Read the OWASP LLM Top 10.
+2. Learn injection, data exfil, supply-chain risk, and guardrails.
+3. Write your guardrail placement (input vs output).
+
 ## Read (15m)
 A red-team / AI-security engineering post.
+
+1. Read a 2026 AI-supply-chain incident writeup + a red-team post.
+2. Note the indirect-injection vector (via retrieved/tool content).
+3. Write your largest attack surface.
 
 ## Build (20m)
 Add semantic guardrails (prompt-injection/PII scanners) at your gateway; pin and verify your AI dependency supply chain.

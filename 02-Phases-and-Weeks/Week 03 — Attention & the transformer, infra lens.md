@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 3Blue1Brown "Attention in transformers" + "But what is a GPT?" (visual, intuition-first).
 
+1. Watch 3Blue1Brown "Attention in transformers" for the QKV intuition.
+2. Then "But what is a GPT?" for the end-to-end flow; pause on the matrix shapes.
+3. Write what attention computes and which tensors scale with sequence length.
+
 ## Read (15m)
 "Attention Is All You Need" — read the architecture section only; ignore the training math.
+
+1. Read only the architecture section of "Attention Is All You Need"; skip the training math.
+2. Identify the per-layer components (attention, MLP, residual, norm).
+3. Note which buffers must persist across decode steps (the KV).
 
 ## Build (20m)
 Run a model at increasing context lengths; measure VRAM growth. Plot memory vs context.

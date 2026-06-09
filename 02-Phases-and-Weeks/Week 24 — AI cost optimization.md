@@ -25,8 +25,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 A GPU cost-optimization playbook; cloud GPU pricing vs bare-metal economics.
 
+1. Read a GPU cost-optimization playbook.
+2. Compare cloud GPU pricing vs bare-metal economics.
+3. List the levers: size, quant, routing, batching, scheduling, spot.
+
 ## Read (15m)
 A "how we cut our inference bill 60%" engineering writeup.
+
+1. Read a "how we cut inference cost 60%" writeup.
+2. Note their single biggest lever.
+3. Write the $ impact they claimed.
 
 ## Build (20m)
 Take one of your deployments and produce a documented cost-reduction plan (model size, quant, routing, batching, scheduling) with projected $ impact.

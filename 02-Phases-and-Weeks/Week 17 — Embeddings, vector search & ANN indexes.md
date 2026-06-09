@@ -25,8 +25,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 A solid HNSW explainer; pgvector and Qdrant/Milvus docs intros.
 
+1. Read a solid HNSW explainer (greedy graph navigation, layers).
+2. Skim the pgvector and Qdrant/Milvus intro docs.
+3. Write the recall-vs-latency knobs for HNSW (m, ef) and IVF (nlist, nprobe).
+
 ## Read (15m)
 A vector-DB benchmark / "which index when" post.
+
+1. Read a vector-DB "which index when" benchmark.
+2. Note the build-time / memory / recall tradeoffs per index.
+3. Write which index you'd pick for your corpus size.
 
 ## Build (20m)
 Stand up pgvector (or Qdrant); index a corpus; measure recall vs latency as you change index params.

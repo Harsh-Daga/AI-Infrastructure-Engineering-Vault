@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 An RDMA fundamentals course/intro; InfiniBand vs RoCE comparison.
 
+1. Work through an RDMA fundamentals intro.
+2. Read an InfiniBand vs RoCE comparison.
+3. Write the lossless mechanisms (PFC/ECN) and why they matter.
+
 ## Read (15m)
 A hyperscaler AI-fabric writeup (e.g. Meta's RoCE-for-AI engineering posts).
+
+1. Read a hyperscaler AI-fabric writeup (e.g. Meta's RoCE-for-AI posts).
+2. Note their congestion-control choices.
+3. Write why the network caps training scale.
 
 ## Build (20m)
 If you can access RDMA-capable nodes, run `ib_write_bw`/`perftest`; otherwise study real fabric topologies and draw a rail-optimized cluster diagram.

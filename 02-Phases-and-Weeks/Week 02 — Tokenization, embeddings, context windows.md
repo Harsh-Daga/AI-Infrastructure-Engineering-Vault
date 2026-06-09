@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 Karpathy tokenizer video (finish it); Hugging Face NLP course, tokenization chapter.
 
+1. Finish Karpathy's tokenizer video; pause to run the byte-pair-encoding examples yourself.
+2. Read the HF tokenization chapter; note how BPE / WordPiece / Unigram differ.
+3. Write why a token (not a word or character) is the model's atomic unit of cost.
+
 ## Read (15m)
 A model card (Llama / Qwen / DeepSeek) — read it as an infra spec sheet (params, context, precision).
+
+1. Open one model card (Llama/Qwen/DeepSeek) and read it as an infra spec sheet.
+2. Extract params, context length, and precision; ignore benchmark tables.
+3. Note the context length — you'll multiply it into KV-cache cost next week.
 
 ## Build (20m)
 Use `tiktoken`/HF tokenizers to count tokens for varied inputs; chart tokens vs characters across languages/code.

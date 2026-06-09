@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 TensorRT-LLM quickstart; NVIDIA NIM overview.
 
+1. Work through the TensorRT-LLM quickstart reading; learn the AOT-compile model.
+2. Read the NVIDIA NIM overview for the packaged path.
+3. Write the tradeoff: peak throughput vs build time and lock-in.
+
 ## Read (15m)
 A recent H100/Blackwell benchmark comparing vLLM vs TensorRT-LLM vs SGLang.
+
+1. Read a recent H100/Blackwell vLLM vs TRT-LLM vs SGLang benchmark.
+2. Note the throughput gap and the conditions it assumes.
+3. Write when the compile cost is worth it.
 
 ## Build (20m)
 Compile a model with TensorRT-LLM (accept the ~20–30 min build); benchmark against your vLLM number.

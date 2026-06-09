@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 Read about MoE (expert parallelism, all-to-all comms) and reasoning models conceptually.
 
+1. Read about MoE: experts, routing, all-to-all comms, active vs total params.
+2. Read about reasoning models and why they decode for a long time.
+3. Write how each one shifts the prefill-vs-decode balance.
+
 ## Read (15m)
 DeepSeek / Llama / Qwen technical reports — only the serving/architecture/efficiency sections.
+
+1. Read the serving/efficiency sections of a DeepSeek/Llama/Qwen tech report.
+2. Skip pretraining details; focus on the inference-cost claims.
+3. Note active-vs-total params for the MoE model.
 
 ## Build (20m)
 Run a dense model and an MoE model; compare memory and throughput profiles.

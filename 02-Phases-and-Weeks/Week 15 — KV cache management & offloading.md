@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 vLLM automatic prefix caching docs; KV-offload writeups (e.g. LMCache-style).
 
+1. Read vLLM automatic prefix caching docs.
+2. Read an LMCache-style KV-offload writeup.
+3. Write what gets cached, reused, and evicted in a tiered KV store.
+
 ## Read (15m)
 A blog on KV cache offload / tiered KV.
+
+1. Read a tiered-KV / KV-offload blog.
+2. Note the latency cost of CPU/SSD offload vs the capacity gained.
+3. Write when offload helps vs hurts.
 
 ## Build (20m)
 Enable prefix caching; build a workload that benefits (repeated system prompt) and measure cache hit rate vs latency.

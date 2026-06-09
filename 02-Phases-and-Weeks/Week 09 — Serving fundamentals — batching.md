@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 Anyscale "Continuous batching" blog; vLLM docs (architecture).
 
+1. Read the Anyscale continuous-batching blog for the core idea.
+2. Skim the vLLM architecture docs for the scheduler.
+3. Write why static batching wastes the GPU and iteration-level scheduling fixes it.
+
 ## Read (15m)
 The Orca / continuous-batching writeups; vLLM design docs.
+
+1. Read the Orca / continuous-batching writeups.
+2. Note the difference between request-level and iteration-level batching.
+3. Write what admission control protects against.
 
 ## Build (20m)
 Load-test a vLLM endpoint (e.g. with `vllm bench` or a `locust`/`k6` script) at 1, 10, 50 concurrent users; chart TTFT and throughput.

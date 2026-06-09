@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 KServe docs; KubeRay + Ray Serve docs.
 
+1. Read KServe + KubeRay/Ray Serve docs.
+2. Learn the inference autoscaling signals.
+3. Write why QPS-based autoscaling is wrong for LLMs.
+
 ## Read (15m)
 A production "serving LLMs on Kubernetes" reference architecture.
+
+1. Read a production "serving LLMs on Kubernetes" reference architecture.
+2. Note their scaling signal (concurrency/queue/KV).
+3. Write their cold-start mitigation.
 
 ## Build (20m)
 Deploy your vLLM model behind KServe or Ray Serve with autoscaling; drive load and watch it scale.

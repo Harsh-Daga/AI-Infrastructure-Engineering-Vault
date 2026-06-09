@@ -25,8 +25,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 OpenTelemetry GenAI semantic conventions docs; the OTel "Inside the LLM call" blog.
 
+1. Read the OpenTelemetry GenAI semantic conventions.
+2. Read the OTel "Inside the LLM call" blog.
+3. Write which gen_ai.* attributes you'll put on each span.
+
 ## Read (15m)
 Langfuse / Arize Phoenix docs; a "LLM trace is just a distributed trace" writeup.
+
+1. Skim Langfuse / Phoenix docs.
+2. Note how an LLM trace is just a distributed trace.
+3. Write what prompt replay lets you debug that logs can't.
 
 ## Build (20m)
 Instrument your gateway + RAG with OTel; export to Langfuse or Phoenix; trace one request end-to-end with token/cost on each span.

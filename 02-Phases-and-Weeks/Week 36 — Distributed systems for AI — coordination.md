@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 Re-read the relevant chapters of Designing Data-Intensive Applications (replication, consistency, consensus) with an AI lens.
 
+1. Re-read DDIA chapters (replication, consistency, consensus) with an AI lens.
+2. Map each to inference coordination (discovery, registration, backpressure).
+3. Write the consistency model your discovery layer needs.
+
 ## Read (15m)
 A distributed-inference coordination design doc (Dynamo discovery / llm-d).
+
+1. Read a Dynamo/llm-d coordination design doc.
+2. Note their discovery + health-check design.
+3. Write which classic failure mode it guards against.
 
 ## Build (20m)
 Add health-checked worker registration + discovery to your disaggregated setup; kill a worker and observe recovery.

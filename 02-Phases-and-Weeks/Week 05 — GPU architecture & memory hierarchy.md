@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 NVIDIA "GPU architecture" overview; Horace He "Making Deep Learning Go Brrrr From First Principles."
 
+1. Read the NVIDIA GPU-architecture overview: SMs, warps, HBM, the memory hierarchy.
+2. Watch/read Horace He's "Brrrr" for compute-bound vs memory-bound thinking.
+3. Write the roofline idea in one sentence (arithmetic intensity vs the ridge point).
+
 ## Read (15m)
 A datacenter GPU spec sheet (H100/H200/B200) — read FLOPs, HBM bandwidth, NVLink BW as the numbers that bound your system.
+
+1. Open an H100/H200/B200 spec sheet.
+2. Copy down peak FLOPs, HBM bandwidth, and NVLink bandwidth.
+3. Note which of these bounds LLM decode (hint: bandwidth).
 
 ## Build (20m)
 Run `nvidia-smi`, `nvidia-smi dmon`, `nvtop`; saturate a GPU and watch utilization, memory, power, clocks.

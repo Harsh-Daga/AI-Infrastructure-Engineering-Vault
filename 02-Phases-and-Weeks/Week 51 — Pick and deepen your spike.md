@@ -24,8 +24,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 The deepest available material in your chosen spike.
 
+1. Read the deepest available material in your chosen spike.
+2. Map the leading open-source project's internals.
+3. Write the hardest open problem in the spike.
+
 ## Read (15m)
 The canonical papers + the leading open-source project's internals for that spike.
+
+1. Read the canonical papers for your spike.
+2. Study the project's design docs/RFCs.
+3. Write your angle on the open problem.
 
 ## Build (20m)
 Start a substantive contribution to the relevant open-source project (see Part 7).

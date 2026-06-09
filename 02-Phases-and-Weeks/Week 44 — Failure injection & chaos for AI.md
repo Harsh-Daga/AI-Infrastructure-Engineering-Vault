@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 Chaos-engineering principles; load-shedding patterns.
 
+1. Read chaos-engineering principles.
+2. Learn load-shedding and fallback-routing patterns.
+3. Write your degradation ladder.
+
 ## Read (15m)
 A resilience-pattern writeup applied to LLM systems.
+
+1. Read a resilience-pattern writeup applied to LLM systems.
+2. Note their retry/backoff strategy.
+3. Write how they avoid retry storms.
 
 ## Build (20m)
 Inject failures (kill a decode worker, throttle the fabric, fail a provider); verify graceful degradation and recovery.

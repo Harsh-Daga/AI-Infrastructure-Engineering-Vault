@@ -25,8 +25,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 NVIDIA DGX/NVL72 topology docs; a "GPU cluster network design" talk.
 
+1. Read NVIDIA DGX/NVL72 topology docs.
+2. Watch a GPU cluster network-design talk.
+3. Write where NVLink domains end and the fabric begins.
+
 ## Read (15m)
 An engineering post on topology-aware job placement.
+
+1. Read a topology-aware placement post.
+2. Note how they keep TP groups inside an NVLink domain.
+3. Write the rail-alignment rule.
 
 ## Build (20m)
 Diagram a 256-GPU cluster (nodes, NVSwitch domains, leaf/spine fabric); annotate where each collective travels.

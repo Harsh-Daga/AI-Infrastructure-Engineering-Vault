@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 NVIDIA MIG/MPS docs; a "MIG vs MPS vs time-slicing" comparison.
 
+1. Read NVIDIA MIG/MPS docs.
+2. Learn MIG (hard) vs MPS (soft) vs time-slicing (none) isolation.
+3. Write which gives memory isolation and which doesn't.
+
 ## Read (15m)
 A writeup quantifying utilization/cost gains from MIG on inference nodes.
+
+1. Read a writeup quantifying MIG utilization gains.
+2. Note the cost-per-request improvement on inference nodes.
+3. Write when MIG backfires (fixed slice sizes).
 
 ## Build (20m)
 Partition a GPU with MIG (or simulate with time-slicing); schedule two small models on one physical GPU; measure isolation.

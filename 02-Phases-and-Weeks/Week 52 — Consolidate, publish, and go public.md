@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 Review your own learning log end-to-end.
 
+1. Review your own learning log end-to-end.
+2. Identify your strongest Phase deliverable.
+3. Write the through-line story of your year.
+
 ## Read (15m)
 Re-read your Phase deliverables; identify the strongest one.
+
+1. Re-read your Phase deliverables.
+2. Note the one with the strongest numbers.
+3. Write the thesis for your flagship post.
 
 ## Build (20m)
 Publish a flagship writeup ("What I learned building X") + a polished GitHub repo (Project Level 7/8); submit a talk or a substantive PR.

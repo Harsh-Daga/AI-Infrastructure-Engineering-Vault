@@ -25,8 +25,16 @@ tags: ["week", "phase/3"]
 ## Learn (20m)
 Hybrid-search docs (Qdrant/Weaviate/Elasticsearch); reranking model overview.
 
+1. Read hybrid-search docs (Qdrant/Weaviate/Elasticsearch).
+2. Learn rank fusion (e.g. RRF) and cross-encoder reranking.
+3. Write the offline retrieval metric you'll use (recall@k / nDCG).
+
 ## Read (15m)
 Perplexity/retrieval-at-scale engineering writeups (freshness + ranking + cost).
+
+1. Read a retrieval-at-scale writeup (freshness + ranking + cost).
+2. Note how they balance freshness vs ranking quality.
+3. Write the cost lever they pulled.
 
 ## Build (20m)
 Add BM25 + reranking to your RAG; build a small retrieval eval set and measure improvement.

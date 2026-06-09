@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 vLLM official docs end-to-end; a recent vLLM deep-dive talk.
 
+1. Read the vLLM docs end-to-end: serving, scheduler, parallelism, the key knobs.
+2. Watch a recent vLLM deep-dive talk for internals.
+3. List the knobs you'll tune: max-num-seqs, gpu-memory-utilization, max-model-len.
+
 ## Read (15m)
 vLLM GitHub issues/discussions on production tuning (real-world failure modes).
+
+1. Skim vLLM GitHub issues/discussions tagged performance/production.
+2. Note two real-world tuning failure modes people hit.
+3. Write the symptom that signals gpu-memory-utilization is set too high.
 
 ## Build (20m)
 Serve a 7–8B model with vLLM; tune `max-num-seqs`, `gpu-memory-utilization`, `max-model-len`; record the throughput/latency frontier.

@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 Megatron-Core docs; PyTorch FSDP2 / TorchTitan docs.
 
+1. Read Megatron-Core + FSDP2/TorchTitan docs.
+2. Compare the three frameworks' ergonomics.
+3. Write how each expresses tensor and pipeline parallelism.
+
 ## Read (15m)
 A "how we trained a 70B model" engineering report focused on the systems side.
+
+1. Read a "how we trained a 70B model" systems-focused report.
+2. Note where their step time went.
+3. Write their data-loading strategy.
 
 ## Build (20m)
 Launch a multi-node-style training run (even 2 small nodes rented hourly) with one framework; capture a profile/timeline.

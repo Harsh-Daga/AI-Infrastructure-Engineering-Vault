@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 SGLang docs + the RadixAttention blog.
 
+1. Read the SGLang docs + the RadixAttention blog.
+2. Understand how a radix tree shares KV across requests with common prefixes.
+3. Write the workload property that makes prefix caching win.
+
 ## Read (15m)
 SGLang vs vLLM benchmark posts (note the workload-dependence of the result).
+
+1. Read an SGLang-vs-vLLM benchmark post.
+2. Note how the winner changes with the workload.
+3. Write why a benchmark number without a workload is meaningless.
 
 ## Build (20m)
 Construct a shared-prefix workload (same long system prompt, many queries); compare SGLang vs vLLM TTFT.

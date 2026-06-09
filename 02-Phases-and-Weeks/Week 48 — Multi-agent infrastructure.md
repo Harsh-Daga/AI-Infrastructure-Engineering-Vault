@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 A2A protocol overview; multi-agent orchestration frameworks.
 
+1. Read the A2A protocol overview.
+2. Skim multi-agent orchestration frameworks.
+3. Write the infra problems unique to N cooperating agents.
+
 ## Read (15m)
 A multi-agent systems engineering writeup.
+
+1. Read a multi-agent systems engineering writeup.
+2. Note their shared-observability approach.
+3. Write their runaway-cost guardrail.
 
 ## Build (20m)
 Orchestrate 2–3 cooperating agents with shared state and full tracing across them.

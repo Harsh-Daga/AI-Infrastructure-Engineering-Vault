@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 NVIDIA NCCL docs; a "collective communication explained" talk.
 
+1. Read NVIDIA NCCL docs; watch a collectives-explained talk.
+2. Learn all-reduce, all-gather, reduce-scatter.
+3. Write the ring vs tree all-reduce tradeoff.
+
 ## Read (15m)
 The ring/tree all-reduce explainer; NCCL tuning notes.
+
+1. Read the ring/tree all-reduce explainer + NCCL tuning notes.
+2. Note the two regimes: latency-bound vs bandwidth-bound.
+3. Write why all-reduce dominates data-parallel training time.
 
 ## Build (20m)
 Run NCCL tests (`nccl-tests`) on a multi-GPU node; measure all-reduce bandwidth; compare with theoretical NVLink BW.

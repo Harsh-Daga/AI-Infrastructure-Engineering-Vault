@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 NVIDIA Dynamo docs (architecture + disaggregation); llm-d docs.
 
+1. Read NVIDIA Dynamo docs (architecture + disaggregation) and llm-d docs.
+2. Learn prefill/decode pools, KV-aware routing, and NIXL.
+3. Write the new dependency the KV transfer introduces.
+
 ## Read (15m)
 "NVIDIA Dynamo: productionizing disaggregated inference" + the K8s operator design.
+
+1. Read "productionizing disaggregated inference" + the K8s operator design.
+2. Note the prefill:decode pool-ratio concern.
+3. Write a new failure mode the split adds.
 
 ## Build (20m)
 Deploy Dynamo (or llm-d) with separate prefill and decode workers on a multi-GPU node; trace a request through both pools.

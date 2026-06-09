@@ -24,8 +24,16 @@ tags: ["week", "phase/2"]
 ## Learn (20m)
 A speculative-decoding explainer; vLLM/SGLang spec-decode docs.
 
+1. Read a speculative-decoding explainer (draft model → verify → accept/reject).
+2. Skim vLLM/SGLang spec-decode docs (draft models, EAGLE, Medusa).
+3. Write what determines the draft acceptance rate.
+
 ## Read (15m)
 The speculative decoding paper (concept + results sections).
+
+1. Read the speculative decoding paper's concept + results sections.
+2. Note the reported speedup and its dependence on acceptance rate.
+3. Write why low acceptance makes it net-negative.
 
 ## Build (20m)
 Enable speculative decoding; measure tokens/sec uplift and any quality/acceptance-rate cost.

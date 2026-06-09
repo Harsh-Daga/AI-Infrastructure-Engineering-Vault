@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 NVIDIA Nsight Systems intro; PyTorch profiler tutorial.
 
+1. Do the NVIDIA Nsight Systems intro; learn to read a kernel timeline.
+2. Skim the PyTorch profiler tutorial for how to capture a trace.
+3. Write the three time sinks to look for: kernels, data movement, Python overhead.
+
 ## Read (15m)
 Horace He "Brrrr" (finish); a "why your GPU is only 40% utilized" post.
+
+1. Finish Horace He's "Brrrr."
+2. Read a "why is my GPU only 40% utilized" post.
+3. Write why a high GPU-util number can still be wasteful.
 
 ## Build (20m)
 Profile a single inference run; identify the biggest time sink (data movement? a kernel? Python overhead?).

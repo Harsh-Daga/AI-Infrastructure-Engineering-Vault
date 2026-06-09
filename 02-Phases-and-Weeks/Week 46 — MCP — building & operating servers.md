@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 MCP spec + 2026 roadmap; the official SDK docs.
 
+1. Read the MCP spec + 2026 roadmap and the SDK docs.
+2. Learn transports, OAuth 2.1, and progressive tool discovery.
+3. Write the context-bloat and injection risks.
+
 ## Read (15m)
 An MCP security writeup (known design pitfalls, the OWASP-LLM-adjacent risks).
+
+1. Read an MCP security writeup.
+2. Note the OWASP-LLM-adjacent risks.
+3. Write your server's biggest attack surface.
 
 ## Build (20m)
 Build and deploy an MCP server (wrap an internal API/tool); connect it to a client; add auth.

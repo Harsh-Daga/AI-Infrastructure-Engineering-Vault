@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 A data-engine / synthetic-data overview (e.g. from Scale AI / open datasets like FineWeb).
 
+1. Read a data-engine / synthetic-data overview (Scale AI, FineWeb).
+2. Learn streaming dedup, filtering, and tokenization.
+3. Write why data pipelines, not GPUs, often bottleneck training.
+
 ## Read (15m)
 A "how we built our data pipeline" engineering post.
+
+1. Read a "how we built our data pipeline" engineering post.
+2. Note their dedup approach (exact vs near).
+3. Write their throughput target (tokens/sec).
 
 ## Build (20m)
 Build a small streaming pipeline that ingests, dedups, filters, and tokenizes a corpus at throughput; measure tokens/sec.

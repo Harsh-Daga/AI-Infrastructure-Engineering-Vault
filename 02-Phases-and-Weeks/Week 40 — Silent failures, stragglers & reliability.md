@@ -24,8 +24,16 @@ tags: ["week", "phase/5"]
 ## Learn (20m)
 NCCL debugging guides; a "debugging a distributed training hang" talk.
 
+1. Read NCCL debugging guides.
+2. Watch a "debugging a distributed training hang" talk.
+3. Write your NCCL-hang checklist (NCCL_DEBUG, timeouts, watchdog).
+
 ## Read (15m)
 Public postmortems / writeups on training-cluster reliability.
+
+1. Read public training-cluster reliability postmortems.
+2. Note how they detected stragglers and silent data corruption.
+3. Write the tell-tale of SDC (divergent results, no errors).
 
 ## Build (20m)
 Write a pre-flight cluster health check script (GPU health, NCCL all-reduce sanity, fabric bandwidth) you'd run before a big job.

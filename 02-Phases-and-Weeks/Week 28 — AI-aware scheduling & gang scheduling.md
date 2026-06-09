@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 KAI Scheduler docs; Kueue docs; Volcano overview.
 
+1. Read KAI / Kueue / Volcano docs.
+2. Learn gang scheduling, priority/preemption, and fair share.
+3. Write why distributed training needs all-or-nothing placement.
+
 ## Read (15m)
 A "multi-tenant GPU scheduling" engineering post.
+
+1. Read a multi-tenant GPU scheduling post.
+2. Note their queue/priority design.
+3. Write what happens to a gang job if one pod can't be placed.
 
 ## Build (20m)
 Install KAI or Volcano; submit a multi-pod "gang" job that only runs when all pods can be placed; observe preemption with priorities.

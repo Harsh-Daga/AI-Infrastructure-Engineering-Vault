@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef09dfb3d9434d40",
+        "id": "e3b8e27ea25ea1ac",
         "type": "tabs",
         "children": [
           {
-            "id": "720f5b920d2ea868",
+            "id": "0f069035cef17456",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -210,8 +210,10 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "720f5b920d2ea868",
+  "active": "0f069035cef17456",
   "lastOpenFiles": [
+    "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
+    "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
     "00-Dashboard/✅ This Week.md",
     "02-Phases-and-Weeks/Week 52 — Consolidate, publish, and go public.md",
     "02-Phases-and-Weeks/Week 51 — Pick and deepen your spike.md",
@@ -236,8 +238,6 @@
     "02-Phases-and-Weeks/Week 32 — GPU node observability with eBPF.md",
     "02-Phases-and-Weeks/Week 31 — The internal AI platform (paved road).md",
     "02-Phases-and-Weeks/Week 30 — Disaggregated serving — Dynamo & llm-d.md",
-    "02-Phases-and-Weeks/Week 29 — Inference on Kubernetes — KServe & Ray.md",
-    "02-Phases-and-Weeks/Week 28 — AI-aware scheduling & gang scheduling.md",
     "Untitled.base"
   ]
 }

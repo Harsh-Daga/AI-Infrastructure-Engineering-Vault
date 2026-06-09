@@ -25,8 +25,16 @@ tags: ["week", "phase/1"]
 ## Learn (20m)
 Andrej Karpathy "Let's build the GPT Tokenizer" + "Intro to LLMs" (1hr talk) — watch the systems-relevant parts.
 
+1. Watch the runtime-relevant parts of Karpathy's "Intro to LLMs" (1hr); skip the training-loop internals.
+2. While watching, write a one-line definition for each: token, prefill, decode, context window.
+3. From memory, sketch the prefill→decode pipeline and where the GPU spends time.
+
 ## Read (15m)
 Jay Alammar, "The Illustrated Transformer" (skim for shapes, not math).
+
+1. Skim the Illustrated Transformer for tensor shapes (Q/K/V, embeddings), not the gradient math.
+2. Mark where the sequence-length dimension shows up — that's your future memory cost.
+3. Write the one shape that grows with context length.
 
 ## Build (20m)
 Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-response. Log GPU/CPU/RAM.

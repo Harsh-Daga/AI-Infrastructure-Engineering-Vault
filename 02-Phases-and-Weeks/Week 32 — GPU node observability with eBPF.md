@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 NVIDIA DCGM exporter docs; an eBPF-for-observability intro (e.g. via Grafana/Pixie-style tooling).
 
+1. Read NVIDIA DCGM exporter docs.
+2. Read an eBPF-for-observability intro.
+3. List the fleet signals: utilization, ECC, throttling, temp, NVLink.
+
 ## Read (15m)
 A "GPU fleet observability" engineering post.
+
+1. Read a GPU fleet observability post.
+2. Note which signals predicted node failure (Xid, ECC).
+3. Write what you'd alert on vs merely chart.
 
 ## Build (20m)
 Deploy DCGM exporter + Grafana; build a fleet dashboard (utilization, ECC errors, throttling, temp, NVLink); add an eBPF-based trace of one path.

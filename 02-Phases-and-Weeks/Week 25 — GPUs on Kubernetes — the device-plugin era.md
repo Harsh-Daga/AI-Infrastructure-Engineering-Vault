@@ -25,8 +25,16 @@ tags: ["week", "phase/4"]
 ## Learn (20m)
 NVIDIA GPU Operator docs; a "GPU scheduling on K8s, the old way" overview.
 
+1. Read the NVIDIA GPU Operator docs.
+2. Read a "GPU scheduling on K8s, the old way" overview.
+3. Write what the device plugin cannot express (topology, memory, sharing).
+
 ## Read (15m)
 A 2026 piece on why the device-plugin model is being replaced.
+
+1. Read a 2026 piece on why device-plugin scheduling is ending.
+2. Note the limits driving the move to DRA.
+3. Write the one capability DRA adds.
 
 ## Build (20m)
 On a GPU node (rent one hourly), install the NVIDIA GPU Operator; schedule a GPU pod; confirm with `nvidia-smi` inside it.

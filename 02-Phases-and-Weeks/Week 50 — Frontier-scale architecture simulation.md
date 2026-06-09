@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 Re-read the Ultra-Scale Playbook + frontier-lab infra writeups with design intent.
 
+1. Re-read the Ultra-Scale Playbook + frontier-lab writeups with design intent.
+2. Study a reference hyperscale architecture.
+3. Write the three things that break first at 100k GPUs.
+
 ## Read (15m)
 Public descriptions of hyperscale AI clusters (Meta, NVIDIA reference architectures).
+
+1. Read public hyperscale cluster descriptions (Meta, NVIDIA reference architectures).
+2. Note their failure-handling and cost structure.
+3. Write what their design optimizes for.
 
 ## Build (20m)
 Write a full architecture doc: topology, scheduler, serving stack, observability, failure handling, and a cost model for a frontier-scale fleet.

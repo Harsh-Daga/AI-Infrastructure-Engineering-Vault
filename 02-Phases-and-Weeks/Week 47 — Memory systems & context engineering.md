@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 A memory-architecture overview for agents; context-engineering writeups.
 
+1. Read a memory-architecture overview for agents.
+2. Read context-engineering writeups.
+3. Write where each memory type should live (context/vector/KV/DB).
+
 ## Read (15m)
 An engineering post on production agent memory.
+
+1. Read a production agent-memory engineering post.
+2. Note their memory write/eviction policy.
+3. Write how stale memory poisons future turns.
 
 ## Build (20m)
 Add a memory layer to your agent (vector + structured + summarized history); measure how memory affects quality and cost.

@@ -25,8 +25,16 @@ tags: ["week", "phase/6"]
 ## Learn (20m)
 Re-read the Google SRE book chapters on SLOs through an AI lens.
 
+1. Re-read the Google SRE SLO chapters with an AI lens.
+2. Learn error budgets and burn-rate alerts.
+3. Write what "down" means for an LLM (the up-but-wrong case).
+
 ## Read (15m)
 A "reliability for AI products" engineering post.
+
+1. Read a "reliability for AI products" engineering post.
+2. Note how they alert on quality, not just availability.
+3. Write their error-budget policy.
 
 ## Build (20m)
 Define SLOs (TTFT, availability, quality-via-eval) + error budget + alerting for your platform.
