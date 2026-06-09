@@ -19,6 +19,9 @@ tags: ["week", "phase/1"]
 **Concepts:** [[Tokenization]], [[Prefill vs Decode]], [[TTFT vs ITL]]
 **Project:** [[Level 1 — Run local LLMs]]
 
+> [!info] How to use this week
+> Timebox the four blocks (~60 min/day total). **Learn** builds the model, **Read** grounds it in reality, **Build** makes it real, **Reflect** locks it in. The **Step-by-step** expands the Build; the **Done when** list is your exit criteria.
+
 ## Learn (20m)
 Andrej Karpathy "Let's build the GPT Tokenizer" + "Intro to LLMs" (1hr talk) — watch the systems-relevant parts.
 
@@ -28,8 +31,25 @@ Jay Alammar, "The Illustrated Transformer" (skim for shapes, not math).
 ## Build (20m)
 Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-response. Log GPU/CPU/RAM.
 
+## Step-by-step
+1. Install Ollama (`curl -fsSL https://ollama.com/install.sh | sh`) and pull a small model: `ollama pull llama3.1:8b`.
+2. Run one short prompt and one long-generation prompt with `ollama run --verbose` to capture timing fields.
+3. In a second terminal watch the hardware: `nvidia-smi -l 1` (NVIDIA) or `asitop` / Activity Monitor (Apple Silicon).
+4. Record `prompt_eval_duration` (prefill) vs `eval_duration` (decode) and tokens/sec for each prompt.
+5. Repeat with a much longer prompt and note how TTFT changes while inter-token time stays roughly flat.
+
 ## Reflect (5m)
 > Where does latency come from before the first token vs between tokens? Why?
+
+## Done when
+- [ ] You measured time-to-first-token separately from total generation time.
+- [ ] You logged GPU/CPU/RAM during a run.
+- [ ] You can state which phase (prefill vs decode) dominated each prompt and why.
+
+## Common pitfalls
+- The first run includes model load from disk — warm up once before timing.
+- On Apple Silicon there is no `nvidia-smi`; the GPU is Metal — use `asitop`.
+- Don't confuse prompt-eval rate (prefill) with token-generation rate (decode).
 
 ## Resources
 - [[Karpathy — Neural Networks Zero to Hero]]
@@ -37,12 +57,19 @@ Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-
 - [[Jay Alammar — The Illustrated Transformer]]
 - [[ollama]]
 
+## Go deeper
+- Karpathy, "Deep Dive into LLMs like ChatGPT" (3hr) — the complete mental model.
+- Ollama API docs: the `prompt_eval_count` / `eval_count` / `*_duration` fields you just used.
+
 ## Tasks
 - [ ] Study/open [[Karpathy — Neural Networks Zero to Hero]]
 - [ ] Study/open [[Andrej Karpathy (YouTube)]]
 - [ ] Study/open [[Jay Alammar — The Illustrated Transformer]]
 - [ ] Study/open [[ollama]]
 - [ ] **Build:** Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-response. Log GPU/CPU/RAM.
+- [ ] You measured time-to-first-token separately from total generation time.
+- [ ] You logged GPU/CPU/RAM during a run.
+- [ ] You can state which phase (prefill vs decode) dominated each prompt and why.
 - [ ] **Reflect:** answer the week's question in the learning log
 
 ## Notes

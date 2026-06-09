@@ -19,6 +19,9 @@ tags: ["week", "phase/1"]
 **Concepts:** [[Quantization]]
 **Project:** [[Level 1 — Run local LLMs]]
 
+> [!info] How to use this week
+> Timebox the four blocks (~60 min/day total). **Learn** builds the model, **Read** grounds it in reality, **Build** makes it real, **Reflect** locks it in. The **Step-by-step** expands the Build; the **Done when** list is your exit criteria.
+
 ## Learn (20m)
 Hugging Face quantization docs/blogs; a GPTQ/AWQ explainer.
 
@@ -28,17 +31,39 @@ An engineering writeup on FP8 inference results (e.g. serving-engine benchmark p
 ## Build (20m)
 Serve the same model in FP16 vs FP8/INT4; compare VRAM, throughput, and output quality on a fixed prompt set.
 
+## Step-by-step
+1. Serve a model in FP16/BF16 and record VRAM, throughput, and outputs on a fixed 20-prompt set.
+2. Serve the same model in FP8 or INT4 (AWQ/GPTQ) and repeat the exact measurements.
+3. Diff the outputs prompt-by-prompt; flag any degradation in reasoning/format-sensitive prompts.
+4. Tabulate VRAM saved, throughput gained, and quality delta; decide where the knee is.
+
 ## Reflect (5m)
 > When is quantization free lunch, and when does it quietly cost you quality?
+
+## Done when
+- [ ] You have a side-by-side FP16 vs quantized table (VRAM, throughput, quality).
+- [ ] You identified at least one prompt class where quantization hurt quality.
+- [ ] You can state when quantization is free lunch vs a hidden quality tax.
+
+## Common pitfalls
+- Quality regressions hide in long-context, math, and structured-output prompts — test those.
+- Different quant methods (GPTQ vs AWQ vs FP8) have different sweet spots; don't generalize from one.
 
 ## Resources
 - [[Hugging Face Blog]]
 - [[vLLM Blog]]
 
+## Go deeper
+- Hugging Face quantization docs/blogs (GPTQ, AWQ, bitsandbytes).
+- A serving-engine FP8 benchmark post — real throughput/quality numbers.
+
 ## Tasks
 - [ ] Study/open [[Hugging Face Blog]]
 - [ ] Study/open [[vLLM Blog]]
 - [ ] **Build:** Serve the same model in FP16 vs FP8/INT4; compare VRAM, throughput, and output quality on a fixed prompt set.
+- [ ] You have a side-by-side FP16 vs quantized table (VRAM, throughput, quality).
+- [ ] You identified at least one prompt class where quantization hurt quality.
+- [ ] You can state when quantization is free lunch vs a hidden quality tax.
 - [ ] **Reflect:** answer the week's question in the learning log
 
 ## Notes

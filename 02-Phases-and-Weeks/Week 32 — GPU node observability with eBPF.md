@@ -19,6 +19,9 @@ tags: ["week", "phase/4"]
 **Concepts:** [[AI Reliability Engineering]], [[GPU Profiling]]
 **Project:** [[Level 4 — AI platform on Kubernetes]]
 
+> [!info] How to use this week
+> Timebox the four blocks (~60 min/day total). **Learn** builds the model, **Read** grounds it in reality, **Build** makes it real, **Reflect** locks it in. The **Step-by-step** expands the Build; the **Done when** list is your exit criteria.
+
 ## Learn (20m)
 NVIDIA DCGM exporter docs; an eBPF-for-observability intro (e.g. via Grafana/Pixie-style tooling).
 
@@ -28,17 +31,40 @@ A "GPU fleet observability" engineering post.
 ## Build (20m)
 Deploy DCGM exporter + Grafana; build a fleet dashboard (utilization, ECC errors, throttling, temp, NVLink); add an eBPF-based trace of one path.
 
+## Step-by-step
+1. Deploy the NVIDIA DCGM exporter as a DaemonSet and scrape it with Prometheus.
+2. Build a Grafana fleet dashboard: utilization, ECC errors, throttling, temp, power, NVLink BW.
+3. Add an eBPF-based trace of one request/syscall path (e.g. via a Pixie-style tool).
+4. Inject a fault (or find a noisy node) and see which signals move first.
+5. Write the Phase-4 deliverable: platform + scheduling + autoscaling + fleet observability.
+
 ## Reflect (5m)
 > Which GPU health signals predict an imminent node failure?
+
+## Done when
+- [ ] A live GPU fleet dashboard with health signals.
+- [ ] An eBPF trace of at least one path.
+- [ ] Phase-4 deliverable assembled (Project Level 4).
+
+## Common pitfalls
+- Xid errors and ECC counts are leading failure indicators — alert on them, don't just chart them.
+- DCGM exporter needs matching driver/DCGM versions or metrics silently go missing.
 
 ## Resources
 - [[Grafana Labs & Red Hat (OpenShift AI)]]
 - [[NVIDIA GPU Operator Documentation]]
 
+## Go deeper
+- NVIDIA DCGM exporter docs.
+- A "GPU fleet observability" engineering post.
+
 ## Tasks
 - [ ] Study/open [[Grafana Labs & Red Hat (OpenShift AI)]]
 - [ ] Study/open [[NVIDIA GPU Operator Documentation]]
 - [ ] **Build:** Deploy DCGM exporter + Grafana; build a fleet dashboard (utilization, ECC errors, throttling, temp, NVLink); add an eBPF-based trace of one path.
+- [ ] A live GPU fleet dashboard with health signals.
+- [ ] An eBPF trace of at least one path.
+- [ ] Phase-4 deliverable assembled (Project Level 4).
 - [ ] **Reflect:** answer the week's question in the learning log
 
 ## Phase deliverable

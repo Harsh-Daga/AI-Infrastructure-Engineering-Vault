@@ -19,6 +19,9 @@ tags: ["week", "phase/6"]
 **Concepts:** [[AI Gateway]], [[MCP]]
 **Project:** [[Level 7 — Production-grade AI platform]]
 
+> [!info] How to use this week
+> Timebox the four blocks (~60 min/day total). **Learn** builds the model, **Read** grounds it in reality, **Build** makes it real, **Reflect** locks it in. The **Step-by-step** expands the Build; the **Done when** list is your exit criteria.
+
 ## Learn (20m)
 OWASP LLM Top 10; a 2026 AI-supply-chain incident writeup.
 
@@ -28,17 +31,39 @@ A red-team / AI-security engineering post.
 ## Build (20m)
 Add semantic guardrails (prompt-injection/PII scanners) at your gateway; pin and verify your AI dependency supply chain.
 
+## Step-by-step
+1. Add semantic guardrails at your gateway: prompt-injection and PII scanners on input/output.
+2. Pin and verify your AI dependency supply chain (model hashes, MCP servers, packages).
+3. Run the OWASP LLM Top-10 scenarios against your stack and log what gets through.
+4. Map your largest attack surface: model, tools (MCP), data, or dependencies.
+
 ## Reflect (5m)
 > What's your largest attack surface — the model, the tools (MCP), the data, or the dependencies?
+
+## Done when
+- [ ] Guardrails (injection/PII) active at the gateway.
+- [ ] A pinned, verified dependency supply chain.
+- [ ] A ranked attack-surface assessment for your platform.
+
+## Common pitfalls
+- Guardrails add latency and false positives — measure and tune, don't bolt on blindly.
+- Indirect injection (via retrieved docs/tool output) bypasses input-only filters.
 
 ## Resources
 - [[OWASP LLM Top 10]]
 - [[Import AI]]
 
+## Go deeper
+- OWASP LLM Top 10.
+- A 2026 AI-supply-chain incident writeup; a red-team engineering post.
+
 ## Tasks
 - [ ] Study/open [[OWASP LLM Top 10]]
 - [ ] Study/open [[Import AI]]
 - [ ] **Build:** Add semantic guardrails (prompt-injection/PII scanners) at your gateway; pin and verify your AI dependency supply chain.
+- [ ] Guardrails (injection/PII) active at the gateway.
+- [ ] A pinned, verified dependency supply chain.
+- [ ] A ranked attack-surface assessment for your platform.
 - [ ] **Reflect:** answer the week's question in the learning log
 
 ## Notes

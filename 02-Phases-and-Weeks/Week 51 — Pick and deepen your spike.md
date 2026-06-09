@@ -18,6 +18,9 @@ tags: ["week", "phase/6"]
 **Objective:** Pick and deepen your spike: choose ONE deep specialization and start an OSS contribution.  
 **Concepts:** [[Disaggregated Serving]], [[Gang Scheduling]], [[Cluster Topology]], [[Stragglers and SDC]], [[Multi-Agent and A2A]]
 
+> [!info] How to use this week
+> Timebox the four blocks (~60 min/day total). **Learn** builds the model, **Read** grounds it in reality, **Build** makes it real, **Reflect** locks it in. The **Step-by-step** expands the Build; the **Done when** list is your exit criteria.
+
 ## Learn (20m)
 The deepest available material in your chosen spike.
 
@@ -27,8 +30,23 @@ The canonical papers + the leading open-source project's internals for that spik
 ## Build (20m)
 Start a substantive contribution to the relevant open-source project (see Part 7).
 
+## Step-by-step
+1. Choose ONE spike (disaggregated serving, scheduling, topology, reliability, multi-agent).
+2. Read that project's internals + the canonical papers until you can navigate its codebase.
+3. Find a "good first issue" or a real gap and reproduce it locally.
+4. Open a substantive PR or a detailed design/issue with a proposed fix.
+
 ## Reflect (5m)
 > What's the hardest open problem in your spike, and what's your angle on it?
+
+## Done when
+- [ ] A chosen spike with the project's internals understood.
+- [ ] A reproduced issue or identified gap.
+- [ ] A substantive PR or design issue opened upstream.
+
+## Common pitfalls
+- Going wide instead of deep wastes the spike — pick one and commit.
+- Drive-by PRs without tests/repro get ignored; bring evidence and a clear scope.
 
 ## Resources
 - [[vllm]]
@@ -37,6 +55,10 @@ Start a substantive contribution to the relevant open-source project (see Part 7
 - [[dynamo]]
 - [[KAI-Scheduler]]
 
+## Go deeper
+- The leading open-source project's internals docs for your spike.
+- The canonical papers for that subfield.
+
 ## Tasks
 - [ ] Study/open [[vllm]]
 - [ ] Study/open [[sglang]]
@@ -44,6 +66,9 @@ Start a substantive contribution to the relevant open-source project (see Part 7
 - [ ] Study/open [[dynamo]]
 - [ ] Study/open [[KAI-Scheduler]]
 - [ ] **Build:** Start a substantive contribution to the relevant open-source project (see Part 7).
+- [ ] A chosen spike with the project's internals understood.
+- [ ] A reproduced issue or identified gap.
+- [ ] A substantive PR or design issue opened upstream.
 - [ ] **Reflect:** answer the week's question in the learning log
 
 ## Notes
