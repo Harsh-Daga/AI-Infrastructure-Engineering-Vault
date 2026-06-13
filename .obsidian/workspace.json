@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e3b8e27ea25ea1ac",
+        "id": "937c17e0e9c65864",
         "type": "tabs",
         "children": [
           {
-            "id": "0f069035cef17456",
+            "id": "974f8c8bcbb9fff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
+                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 01 — How an LLM actually runs"
+              "title": "Week 02 — Tokenization, embeddings, context windows"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
+                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week 01 — How an LLM actually runs"
+              "title": "Backlinks for Week 02 — Tokenization, embeddings, context windows"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
+                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Week 01 — How an LLM actually runs"
+              "title": "Outgoing links from Week 02 — Tokenization, embeddings, context windows"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
+                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 01 — How an LLM actually runs"
+              "title": "Outline of Week 02 — Tokenization, embeddings, context windows"
             }
           },
           {
@@ -210,11 +210,25 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "0f069035cef17456",
+  "active": "974f8c8bcbb9fff6",
   "lastOpenFiles": [
+    "02-Phases-and-Weeks/Week 07 — Where the GPU time goes — profiling.md",
+    "02-Phases-and-Weeks/Week 06 — Precision & quantization.md",
+    "02-Phases-and-Weeks/Week 05 — GPU architecture & memory hierarchy.md",
+    "02-Phases-and-Weeks/Week 04 — The KV cache.md",
+    "02-Phases-and-Weeks/Week 03 — Attention & the transformer, infra lens.md",
     "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
-    "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
+    "05-Resources/Courses-and-Guides/Hugging Face NLP Course.md",
     "00-Dashboard/✅ This Week.md",
+    "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
+    "00-Dashboard/📚 Reading Queue.md",
+    "_templates/week.md",
+    "04-Projects/Level 1 — Run local LLMs.md",
+    "05-Resources/Courses-and-Guides/Karpathy — Neural Networks Zero to Hero.md",
+    "02-Phases-and-Weeks/Phase 1 — Foundations.md",
+    "00-Dashboard/🏠 Home.md",
+    "01-Roadmap/Part 7 — The Top 1% Plan.md",
+    "01-Roadmap/Part 1 — The 2026 Landscape.md",
     "02-Phases-and-Weeks/Week 52 — Consolidate, publish, and go public.md",
     "02-Phases-and-Weeks/Week 51 — Pick and deepen your spike.md",
     "02-Phases-and-Weeks/Week 50 — Frontier-scale architecture simulation.md",
@@ -224,20 +238,6 @@
     "02-Phases-and-Weeks/Week 46 — MCP — building & operating servers.md",
     "02-Phases-and-Weeks/Week 45 — Agent infrastructure & durable execution.md",
     "02-Phases-and-Weeks/Week 44 — Failure injection & chaos for AI.md",
-    "02-Phases-and-Weeks/Week 43 — AI reliability engineering — SLOs & error budgets.md",
-    "02-Phases-and-Weeks/Week 42 — Distributed inference at scale.md",
-    "02-Phases-and-Weeks/Week 41 — Synthetic data & training and eval data pipelines.md",
-    "02-Phases-and-Weeks/Week 40 — Silent failures, stragglers & reliability.md",
-    "02-Phases-and-Weeks/Week 39 — Checkpointing, fault tolerance, elastic training.md",
-    "02-Phases-and-Weeks/Week 38 — Training frameworks — Megatron, FSDP2, DeepSpeed.md",
-    "02-Phases-and-Weeks/Week 37 — Parallelism taxonomy for training.md",
-    "02-Phases-and-Weeks/Week 36 — Distributed systems for AI — coordination.md",
-    "02-Phases-and-Weeks/Week 35 — Cluster topology — NVLink, NVSwitch, rails.md",
-    "02-Phases-and-Weeks/Week 34 — RDMA, InfiniBand, RoCEv2 & lossless fabrics.md",
-    "02-Phases-and-Weeks/Week 33 — Collective communication & NCCL.md",
-    "02-Phases-and-Weeks/Week 32 — GPU node observability with eBPF.md",
-    "02-Phases-and-Weeks/Week 31 — The internal AI platform (paved road).md",
-    "02-Phases-and-Weeks/Week 30 — Disaggregated serving — Dynamo & llm-d.md",
     "Untitled.base"
   ]
 }

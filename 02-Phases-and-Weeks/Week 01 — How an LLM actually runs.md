@@ -1,15 +1,21 @@
 ---
-type: "week"
+type: week
 week: 1
-phase: "Phase 1 — Foundations"
-status: "in-progress"
-start: "2026-06-09"
-end: 
+phase: Phase 1 — Foundations
+status: done
+start: 2026-06-09
+end: 13/06/2026
 objective: "Build the 10,000-ft systems view of how an LLM runs: tokens, prefill → decode, where GPU time goes."
-concepts: ["[[Tokenization]]", "[[Prefill vs Decode]]", "[[TTFT vs ITL]]"]
-project: ["[[Level 1 — Run local LLMs]]"]
-deliverable: 
-tags: ["week", "phase/1"]
+concepts:
+  - "[[Tokenization]]"
+  - "[[Prefill vs Decode]]"
+  - "[[TTFT vs ITL]]"
+project:
+  - "[[Level 1 — Run local LLMs]]"
+deliverable:
+tags:
+  - week
+  - phase/1
 ---
 
 # Week 01 — How an LLM actually runs
@@ -50,9 +56,9 @@ Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-
 > Where does latency come from before the first token vs between tokens? Why?
 
 ## Done when
-- [ ] You measured time-to-first-token separately from total generation time.
-- [ ] You logged GPU/CPU/RAM during a run.
-- [ ] You can state which phase (prefill vs decode) dominated each prompt and why.
+- [x] You measured time-to-first-token separately from total generation time. ✅ 2026-06-13
+- [x] You logged GPU/CPU/RAM during a run. ✅ 2026-06-13
+- [x] You can state which phase (prefill vs decode) dominated each prompt and why. ✅ 2026-06-13
 
 ## Common pitfalls
 - The first run includes model load from disk — warm up once before timing.
@@ -70,14 +76,14 @@ Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-
 - Ollama API docs: the `prompt_eval_count` / `eval_count` / `*_duration` fields you just used.
 
 ## Tasks
-- [ ] Study/open [[Karpathy — Neural Networks Zero to Hero]]
-- [ ] Study/open [[Andrej Karpathy (YouTube)]]
-- [ ] Study/open [[Jay Alammar — The Illustrated Transformer]]
-- [ ] Study/open [[ollama]]
-- [ ] **Build:** Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-response. Log GPU/CPU/RAM.
-- [ ] You measured time-to-first-token separately from total generation time.
-- [ ] You logged GPU/CPU/RAM during a run.
-- [ ] You can state which phase (prefill vs decode) dominated each prompt and why.
-- [ ] **Reflect:** answer the week's question in the learning log
+- [x] Study/open [[Karpathy — Neural Networks Zero to Hero]] ✅ 2026-06-13
+- [x] Study/open [[Andrej Karpathy (YouTube)]] ✅ 2026-06-13
+- [x] Study/open [[Jay Alammar — The Illustrated Transformer]] ✅ 2026-06-13
+- [x] Study/open [[ollama]] ✅ 2026-06-13
+- [x] **Build:** Install Ollama; run a small model (e.g. Llama 3.x 8B). Time first-token vs full-response. Log GPU/CPU/RAM. ✅ 2026-06-13
+- [x] You measured time-to-first-token separately from total generation time. ✅ 2026-06-13
+- [x] You logged GPU/CPU/RAM during a run. ✅ 2026-06-13
+- [x] You can state which phase (prefill vs decode) dominated each prompt and why. ✅ 2026-06-13
+- [x] **Reflect:** answer the week's question in the learning log ✅ 2026-06-13
 
 ## Notes

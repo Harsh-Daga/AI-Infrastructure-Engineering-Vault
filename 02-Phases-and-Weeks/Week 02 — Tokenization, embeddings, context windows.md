@@ -2,8 +2,8 @@
 type: "week"
 week: 2
 phase: "Phase 1 — Foundations"
-status: "not-started"
-start: 
+status: "in-progress"
+start: 2026-06-13
 end: 
 objective: "Tokenization, embeddings, and context-window memory cost."
 concepts: ["[[Tokenization]]", "[[Embeddings]]"]
