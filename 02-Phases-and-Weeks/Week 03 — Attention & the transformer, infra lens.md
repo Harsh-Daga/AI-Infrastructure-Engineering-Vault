@@ -1,15 +1,20 @@
 ---
-type: "week"
+type: week
 week: 3
-phase: "Phase 1 — Foundations"
-status: "not-started"
-start: 
-end: 
+phase: Phase 1 — Foundations
+status: done
+start: 2026-06-14
+end: 29/06/2026
 objective: "Attention & the transformer through an infra lens: shapes and memory cost, not gradient math."
-concepts: ["[[Attention]]", "[[Transformer Block]]"]
-project: ["[[Level 1 — Run local LLMs]]"]
-deliverable: 
-tags: ["week", "phase/1"]
+concepts:
+  - "[[Attention]]"
+  - "[[Transformer Block]]"
+project:
+  - "[[Level 1 — Run local LLMs]]"
+deliverable:
+tags:
+  - week
+  - phase/1
 ---
 
 # Week 03 — Attention & the transformer, infra lens
@@ -49,9 +54,9 @@ Run a model at increasing context lengths; measure VRAM growth. Plot memory vs c
 > What part of memory grows with context length, and what does that imply for serving?
 
 ## Done when
-- [ ] You have a memory-vs-context plot for one model.
-- [ ] You can separate fixed (weights) from context-dependent (KV) memory.
-- [ ] You can explain why attention is O(n²) compute but the KV cache is O(n) memory.
+- [x] You have a memory-vs-context plot for one model.
+- [x] You can separate fixed (weights) from context-dependent (KV) memory.
+- [x] You can explain why attention is O(n²) compute but the KV cache is O(n) memory.
 
 ## Common pitfalls
 - Allocator caching can mask true growth — measure peak, and reset between runs.
@@ -67,13 +72,13 @@ Run a model at increasing context lengths; measure VRAM growth. Plot memory vs c
 - The Illustrated Transformer (Jay Alammar) — shapes, not gradients.
 
 ## Tasks
-- [ ] Study/open [[3Blue1Brown — Neural Networks series]]
-- [ ] Study/open [[Attention Is All You Need]]
-- [ ] Study/open [[Jay Alammar — The Illustrated Transformer]]
-- [ ] **Build:** Run a model at increasing context lengths; measure VRAM growth. Plot memory vs context.
-- [ ] You have a memory-vs-context plot for one model.
-- [ ] You can separate fixed (weights) from context-dependent (KV) memory.
-- [ ] You can explain why attention is O(n²) compute but the KV cache is O(n) memory.
-- [ ] **Reflect:** answer the week's question in the learning log
+- [x] Study/open [[3Blue1Brown — Neural Networks series]]
+- [x] Study/open [[Attention Is All You Need]]
+- [x] Study/open [[Jay Alammar — The Illustrated Transformer]]
+- [x] **Build:** Run a model at increasing context lengths; measure VRAM growth. Plot memory vs context.
+- [x] You have a memory-vs-context plot for one model.
+- [x] You can separate fixed (weights) from context-dependent (KV) memory.
+- [x] You can explain why attention is O(n²) compute but the KV cache is O(n) memory.
+- [x] **Reflect:** answer the week's question in the learning log
 
 ## Notes

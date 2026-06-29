@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
+                "file": "02-Phases-and-Weeks/Week 04 — The KV cache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 02 — Tokenization, embeddings, context windows"
+              "title": "Week 04 — The KV cache"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 372.5
   },
   "right": {
     "id": "959b7b43baf24745",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
+                "file": "02-Phases-and-Weeks/Week 04 — The KV cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week 02 — Tokenization, embeddings, context windows"
+              "title": "Backlinks for Week 04 — The KV cache"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
+                "file": "02-Phases-and-Weeks/Week 04 — The KV cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Week 02 — Tokenization, embeddings, context windows"
+              "title": "Outgoing links from Week 04 — The KV cache"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
+                "file": "02-Phases-and-Weeks/Week 04 — The KV cache.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 02 — Tokenization, embeddings, context windows"
+              "title": "Outline of Week 04 — The KV cache"
             }
           },
           {
@@ -212,14 +212,18 @@
   },
   "active": "974f8c8bcbb9fff6",
   "lastOpenFiles": [
-    "02-Phases-and-Weeks/Week 07 — Where the GPU time goes — profiling.md",
+    "05-Resources/Papers/PagedAttention (vLLM).md",
+    "02-Phases-and-Weeks/Week 04 — The KV cache.md",
+    "05-Resources/Blogs/vLLM Blog — PagedAttention.md",
+    "00-Dashboard/✅ This Week.md",
+    "02-Phases-and-Weeks/Week 03 — Attention & the transformer, infra lens.md",
+    "02-Phases-and-Weeks/Week 10 — vLLM in depth.md",
     "02-Phases-and-Weeks/Week 06 — Precision & quantization.md",
     "02-Phases-and-Weeks/Week 05 — GPU architecture & memory hierarchy.md",
-    "02-Phases-and-Weeks/Week 04 — The KV cache.md",
-    "02-Phases-and-Weeks/Week 03 — Attention & the transformer, infra lens.md",
     "02-Phases-and-Weeks/Week 02 — Tokenization, embeddings, context windows.md",
+    "02-Phases-and-Weeks/Week 07 — Where the GPU time goes — profiling.md",
+    "05-Resources/Papers/Llama, DeepSeek & Qwen Technical Reports.md",
     "05-Resources/Courses-and-Guides/Hugging Face NLP Course.md",
-    "00-Dashboard/✅ This Week.md",
     "02-Phases-and-Weeks/Week 01 — How an LLM actually runs.md",
     "00-Dashboard/📚 Reading Queue.md",
     "_templates/week.md",
@@ -234,10 +238,6 @@
     "02-Phases-and-Weeks/Week 50 — Frontier-scale architecture simulation.md",
     "02-Phases-and-Weeks/Week 49 — AI security & supply chain.md",
     "02-Phases-and-Weeks/Week 48 — Multi-agent infrastructure.md",
-    "02-Phases-and-Weeks/Week 47 — Memory systems & context engineering.md",
-    "02-Phases-and-Weeks/Week 46 — MCP — building & operating servers.md",
-    "02-Phases-and-Weeks/Week 45 — Agent infrastructure & durable execution.md",
-    "02-Phases-and-Weeks/Week 44 — Failure injection & chaos for AI.md",
     "Untitled.base"
   ]
 }

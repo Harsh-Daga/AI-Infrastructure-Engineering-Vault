@@ -1,15 +1,20 @@
 ---
-type: "week"
+type: week
 week: 4
-phase: "Phase 1 — Foundations"
-status: "not-started"
-start: 
-end: 
+phase: Phase 1 — Foundations
+status: in-progress
+start: 2026-06-29
+end:
 objective: "★ The KV cache: what it is, why it exists, how it grows, why it dominates inference memory."
-concepts: ["[[KV Cache]]", "[[PagedAttention]]"]
-project: ["[[Level 1 — Run local LLMs]]"]
-deliverable: 
-tags: ["week", "phase/1"]
+concepts:
+  - "[[KV Cache]]"
+  - "[[PagedAttention]]"
+project:
+  - "[[Level 1 — Run local LLMs]]"
+deliverable:
+tags:
+  - week
+  - phase/1
 ---
 
 # Week 04 — The KV cache

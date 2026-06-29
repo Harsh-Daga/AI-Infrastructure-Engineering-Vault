@@ -1,15 +1,20 @@
 ---
-type: "week"
+type: week
 week: 2
-phase: "Phase 1 — Foundations"
-status: "in-progress"
+phase: Phase 1 — Foundations
+status: done
 start: 2026-06-13
-end: 
-objective: "Tokenization, embeddings, and context-window memory cost."
-concepts: ["[[Tokenization]]", "[[Embeddings]]"]
-project: ["[[Level 1 — Run local LLMs]]"]
-deliverable: 
-tags: ["week", "phase/1"]
+end: 14/06/2026
+objective: Tokenization, embeddings, and context-window memory cost.
+concepts:
+  - "[[Tokenization]]"
+  - "[[Embeddings]]"
+project:
+  - "[[Level 1 — Run local LLMs]]"
+deliverable:
+tags:
+  - week
+  - phase/1
 ---
 
 # Week 02 — Tokenization, embeddings, context windows
@@ -50,9 +55,9 @@ Use `tiktoken`/HF tokenizers to count tokens for varied inputs; chart tokens vs 
 > Why is the token (not the request) the right unit for cost and rate-limiting?
 
 ## Done when
-- [ ] You have a tokens-vs-characters comparison across languages/code.
-- [ ] You can explain why code and non-English text cost more tokens.
-- [ ] You computed the memory cost of a full context window for one model.
+- [x] You have a tokens-vs-characters comparison across languages/code. ✅ 2026-06-14
+- [x] You can explain why code and non-English text cost more tokens. ✅ 2026-06-14
+- [x] You computed the memory cost of a full context window for one model. ✅ 2026-06-14
 
 ## Common pitfalls
 - Different model families use different tokenizers — don't compare token counts across them naively.
@@ -68,13 +73,13 @@ Use `tiktoken`/HF tokenizers to count tokens for varied inputs; chart tokens vs 
 - tiktoken README — encoding differences across OpenAI model generations.
 
 ## Tasks
-- [ ] Study/open [[Karpathy — Neural Networks Zero to Hero]]
-- [ ] Study/open [[Hugging Face NLP Course]]
-- [ ] Study/open [[Llama, DeepSeek & Qwen Technical Reports]]
-- [ ] **Build:** Use `tiktoken`/HF tokenizers to count tokens for varied inputs; chart tokens vs characters across languages/code.
-- [ ] You have a tokens-vs-characters comparison across languages/code.
-- [ ] You can explain why code and non-English text cost more tokens.
-- [ ] You computed the memory cost of a full context window for one model.
-- [ ] **Reflect:** answer the week's question in the learning log
+- [x] Study/open [[Karpathy — Neural Networks Zero to Hero]] ✅ 2026-06-14
+- [x] Study/open [[Hugging Face NLP Course]] ✅ 2026-06-14
+- [x] Study/open [[Llama, DeepSeek & Qwen Technical Reports]] ✅ 2026-06-14
+- [x] **Build:** Use `tiktoken`/HF tokenizers to count tokens for varied inputs; chart tokens vs characters across languages/code. ✅ 2026-06-14
+- [x] You have a tokens-vs-characters comparison across languages/code. ✅ 2026-06-14
+- [x] You can explain why code and non-English text cost more tokens. ✅ 2026-06-14
+- [x] You computed the memory cost of a full context window for one model. ✅ 2026-06-14
+- [x] **Reflect:** answer the week's question in the learning log ✅ 2026-06-14
 
 ## Notes
